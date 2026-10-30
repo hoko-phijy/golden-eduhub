@@ -38,7 +38,8 @@ Thumbs.db
 # Perch agent config
 .perch/
 
-# Unrelated course materials in this working folder (not part of the application repo)
-materials/
-tasks/
+# Local uploads when STORAGE_DRIVER=local
+.data/
+
+# Archives
 *.rar
