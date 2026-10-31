@@ -6,14 +6,34 @@ control for each instructor.
 
 - **Stack:** TypeScript end to end — Next.js (App Router) + Node.js + PostgreSQL + Prisma
 - **Deployment:** one Railway project, one service, one Postgres. Backend and frontend ship together by design.
-- **Status:** planning. No application code yet.
+- **Status:** frontend scaffolded. Routing, theme, i18n and UI components are in place; data layer lands in Phase 1.
 
-## Repository layout (target)
+## Running it
+
+```bash
+npm install
+npm run dev      # http://localhost:3000
+```
+
+To preview the three role shells before auth lands, set a role and restart:
+
+```powershell
+$env:GOLDEN_DEV_PREVIEW_ROLE="ADMIN"   # or INSTRUCTOR / STUDENT
+npm run dev
+```
+
+That switch is development-only and inert in production. It exists so the UI can be
+reviewed before Phase 1 builds real sessions.
+
+## Repository layout (current)
 
 ```
-apps/web            Next.js application (frontend + server actions + route handlers)
-docs                Product, architecture, data, permissions and delivery plans
-prisma              Schema, migrations, seed
+src/app          Routes: (admin) (teach) (student) (auth) + api
+src/components   ui (shadcn), shell, theme, brand
+src/i18n         Locale resolution and message loading
+src/lib          auth guard, roles, utils
+src/messages     en.json, ar.json
+docs             Product, architecture, data, permissions and delivery plans
 ```
 
 Everything lives in a single Next.js application. There is no separate backend service —

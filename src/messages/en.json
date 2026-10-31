@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "title": "Golden Edu Hub — Golden Academy",
+    "description": "Courses, resources, assignments, quizzes and exams for Golden Academy."
+  },
+  "common": {
+    "appName": "Golden Edu Hub",
+    "academy": "Golden Academy",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "email": "Email",
+    "password": "Password",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "loading": "Loading",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "close": "Close",
+    "status": "Status",
+    "actions": "Actions",
+    "yes": "Yes",
+    "no": "No",
+    "none": "None",
+    "of": "of",
+    "phasePending": "Phase 5",
+    "openNav": "Open navigation"
+  },
+  "theme": {
+    "label": "Appearance",
+    "toggle": "Change appearance",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "label": "Language",
+    "toggle": "Change language"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "courses": "Courses",
+    "grades": "Grades",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "instructors": "Instructors",
+    "students": "Students",
+    "gradebook": "Gradebook",
+    "audit": "Audit log",
+    "settings": "Settings",
+    "myCourses": "My courses",
+    "gradingQueue": "Grading queue",
+    "main": "Main"
+  },
+  "admin": {
+    "description": "Academy-wide view. Every course, every instructor, every grade.",
+    "statsActiveCourses": "Active courses",
+    "statsStudents": "Students",
+    "statsAwaitingGrading": "Awaiting grading",
+    "statsAverageScore": "Average score",
+    "recentActivity": "Recent activity",
+    "recentActivityEmpty": "The audit feed appears here once the audit table lands in Phase 1.",
+    "quickActions": "Quick actions",
+    "createInstructor": "Create an instructor",
+    "createCourse": "Create a course",
+    "importStudents": "Import students"
+  },
+  "teach": {
+    "description": "Your courses, your grading queue, your deadlines.",
+    "statAwaitingGrading": "Awaiting grading",
+    "statDueThisWeek": "Due this week",
+    "statAverageScore": "Average score",
+    "ownedByYou": "Owned by you",
+    "noCoursesTitle": "No courses yet",
+    "noCoursesText": "Courses are created by the academy administrator and assigned to you. Once one is assigned, it appears here.",
+    "assignedByAdmin": "Assigned by admin"
+  },
+  "student": {
+    "description": "What's due, what's been graded, what you're enrolled in.",
+    "dueSoon": "Due soon",
+    "recentlyGraded": "Recently graded",
+    "nothingDue": "Nothing due",
+    "nothingDueText": "Assignments and exams with deadlines appear here once your courses are published.",
+    "noGrades": "No grades yet",
+    "noGradesText": "When an instructor grades your work and releases it, it shows up here."
+  },
+  "landing": {
+    "eyebrow": "Golden Academy",
+    "heading": "One place for every course, exam and grade.",
+    "subheading": "Instructors teach. Students learn. You keep the whole academy in view.",
+    "signInCta": "Sign in to Golden Edu Hub",
+    "featureCourses": "Courses",
+    "featureCoursesText": "Modules, lessons, PDFs, links and images — no video hosting needed.",
+    "featureAssessment": "Quizzes and exams",
+    "featureAssessmentText": "Auto-graded objective questions, a manual queue for written answers, and server-enforced timers.",
+    "featureControl": "Full control",
+    "featureControlText": "Every course, every grade, every override — audited and traceable.",
+    "footerNote": "Accounts are created by the academy administrator."
+  },
+  "auth": {
+    "signInTitle": "Sign in",
+    "signInSubtitle": "Use the account your academy gave you.",
+    "emailLabel": "Email address",
+    "passwordLabel": "Password",
+    "signInButton": "Sign in",
+    "signInPending": "Sign-in is wired up in Phase 1.",
+    "forgotPassword": "Forgot your password?",
+    "resetTitle": "Reset your password",
+    "resetSubtitle": "We'll email you a link if the address is registered.",
+    "resetButton": "Send reset link",
+    "newPasswordTitle": "Choose a new password",
+    "changeButton": "Update password",
+    "invalidCredentials": "Those details don't match an active account.",
+    "genericError": "Something went wrong. Try again."
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "notFoundText": "That page doesn't exist, or you don't have access to it.",
+    "forbidden": "You don't have access to this",
+    "forbiddenText": "This area belongs to another role. If you think that's wrong, ask your administrator.",
+    "unexpected": "Something went wrong",
+    "unexpectedText": "The error was logged. Try again, and tell your administrator if it keeps happening.",
+    "backHome": "Back to dashboard"
+  },
+  "roles": {
+    "admin": "Administrator",
+    "instructor": "Instructor",
+    "student": "Student"
+  }
+}
